@@ -10,7 +10,7 @@ const config = {
 		app: './assets/src/js/app.js',
 	},
 	output: {
-		filename: '/js/[name].js',
+		filename: 'js/[name].js',
 		path: path.resolve(__dirname, 'public'),
 	},
 	module: {
@@ -35,7 +35,7 @@ const config = {
 	plugins: [
 		new ExtractTextPlugin('/css/[name].css'),
 		new BrowserSyncPlugin({
-		    proxy: 'wordpack.dev',
+		    proxy: 'webpack.test',
 		    port: 3000,
 		    files: [
 		        '**/*.php'
