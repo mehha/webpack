@@ -25,5 +25,6 @@
     <div class="float-left"></div>
 </div>
 <p>tere mis sinu nimi on</p>
+<p>master</p>
 
 <?php get_footer(); ?>
