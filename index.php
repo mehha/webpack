@@ -27,5 +27,6 @@
 <p>tere mis sinu nimi on</p>
 <p>master</p>
 <p>feature-a</p>
+<p>github</p>
 
 <?php get_footer(); ?>
